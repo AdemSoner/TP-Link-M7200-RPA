@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MMfrk455C0qE4Fb170a4Ig" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/8vbI6uAGe02CYyJJuSjh9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" DesignTimeRectangle="1654, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' idx='2' /&gt;" Guid="378c96d4-800f-4551-a71a-4c35c796d974" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="8990f1406a4842545540bce8689db691.png" xmlns="">0FOWpdQQFT0GOCevo_QKa_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

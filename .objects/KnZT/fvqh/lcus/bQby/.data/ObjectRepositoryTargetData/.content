@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zTaamnTEB063Y_G9L80wNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" CVScreenId="6b3b9626-a513-4bd7-a5a0-38481e93f76e" DesignTimeRectangle="1699, 613, 397, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='dialUpContent' tag='SPAN' /&gt;" Guid="99619d04-72f8-45b6-a7db-1fdc1981c29f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6b3b9626-a513-4bd7-a5a0-38481e93f76e" CvTextArea="1434, 627, 100, 18" CvTextArgument="Profile List:" CvType="Text" DesignTimeRectangle="1436, 627, 248, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='proListLbl' tag='LABEL' type='' class='content-label' aaname='Profile List:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Profile List:' /&gt;" Guid="795a2126-2e56-4aa4-9327-4c2b5bea49dd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd1f9977b5d0ac5d196bdb6ae05546dd.png" xmlns="">0ib9pLmcaIkeyjKtpCzzZFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

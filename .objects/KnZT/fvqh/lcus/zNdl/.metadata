@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SSID Broadcast",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "zNdlVglzCkmB538BIkgw9A",
+  "Reference": "WQ6qSd0jjUqf1JM9IX2Y3w/zNdlVglzCkmB538BIkgw9A",
+  "ParentRef": "WQ6qSd0jjUqf1JM9IX2Y3w/lcuso91T40aIsHOc5axN0A",
+  "Created": "2025-05-22T06:39:49.2522911Z",
+  "Updated": "2025-05-22T06:39:49.2522911Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

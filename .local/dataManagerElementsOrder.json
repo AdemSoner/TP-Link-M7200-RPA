@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TimeZoneVisibility&Sequence_2",
+        "NoMessages&Sequence_18",
+        "SMSBox&Sequence_2",
+        "WirelessCheck&Sequence_1",
+        "DenemeVisible&Sequence_1",
+        "PowerSavingMode&Sequence_1",
+        "variable1&Sequence_1",
+        "TimeZone&Sequence_1",
+        "Password&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

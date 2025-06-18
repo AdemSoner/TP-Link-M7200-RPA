@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f_jBf6cSq0WF0JirNfTo4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" CVScreenId="681fa389-769d-4a53-bd43-af87f90b1b90" CvElementArea="1468, 699, 171, 51" CvTextArea="1493, 714, 123, 20" CvTextArgument="Restart Wi-Fi" CvType="Button" DesignTimeRectangle="1472, 702, 165, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wifiRebootOK' tag='BUTTON' /&gt;" Guid="dc108e48-548a-4317-bfaf-8f6df5cc3259" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1060, 494, 630, 291" FullSelectorArgument="&lt;webctrl id='wifiRebootPopup' tag='DIV' /&gt;" FuzzyMatches="10000" Guid="57af961f-8941-45f5-a44d-2d216355191a" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="19d1faee55fc384b5a1825b8d20918e6.png" xmlns="">0e9MocSYZMEeApXzgnp61sg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

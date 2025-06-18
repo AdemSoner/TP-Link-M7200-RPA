@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N9A3KHZihkOqM8Nb9_YdBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" DesignTimeRectangle="2157, 267, 51, 45" FullSelectorArgument="&lt;webctrl id='img_Advanced' tag='I' /&gt;" Guid="bda12b90-f7fc-4ca1-a2cc-fe99d0a3e2c5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a8e9ec5e5727e960c24e51e8e4944485.png" xmlns="">0iej3h5M1SEKcc0je5SRu3Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qLqOpcOlSE-tsgk9hYQL9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" CVScreenId="efbfafef-2f98-4709-986f-e21f4a81a54f" CvElementArea="1718, 701, 141, 49" CvTextArea="1767, 714, 46, 19" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1722, 703, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wzdRegionNextBtn' tag='BUTTON' /&gt;" Guid="2e5e86c9-a5d9-4c13-b1ca-6759eefe9ca6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="c318d45f7b118e428ec316cb0f062875.png" xmlns="">0me4fYjt5mkme-9E_an4cLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

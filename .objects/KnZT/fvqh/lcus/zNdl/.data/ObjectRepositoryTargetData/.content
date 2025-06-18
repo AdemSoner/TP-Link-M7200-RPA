@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_YrScew3XUuq7um_xbZrsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" CVScreenId="1af05ada-7090-4b6a-9436-ba1ee91b430f" DesignTimeRectangle="2002, 514, 63, 39" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='wifiSettingsSection' tag='DIV' /&gt;" Guid="5155cc8e-a0f4-4b8a-b3cf-c25c7086263a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1af05ada-7090-4b6a-9436-ba1ee91b430f" CvTextArea="1662, 524, 143, 18" CvTextArgument="SSID Broadcast:" CvType="Text" DesignTimeRectangle="1664, 523, 324, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='broadcastLbl' tag='LABEL' type='' class='content-label' aaname='SSID Broadcast:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='SSID Broadcast:' /&gt;" Guid="fb7f75ea-19b0-41bf-8ba5-c050033b5ad2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cfb59ce2c6083d8aac51270bcaf93585.png" xmlns="">0yTQBVF4FCUq4ZieLhX0Wjw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Pu-1VnIZUEGYWPN78Ydsig" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/dMwf21c_mUavNd2T2WEDqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" CVScreenId="66c3e9d5-54c0-4fd3-8429-b19d93218bf5" CvElementArea="1669, 511, 23, 22" CvType="CheckBox" DesignTimeRectangle="1673, 513, 18, 18" FuzzySelectorArgument="&lt;webctrl id='tableInbox' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='icon-unchecked' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ef7b0ec6-f8e3-4068-9b8f-3e4e4b876fb5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d60bbfec-45b2-4806-9562-ac28f66fba7d" CvTextArea="1761, 512, 52, 16" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="1763, 510, 52, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='tableInbox' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='smsStatus' type='' tag='SPAN' class='' aaname='Status' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Status' /&gt;" Guid="2b799800-b791-47a7-85fa-002f238b89de" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="3" Y="-3" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2c5fe3d18451de321e634345d1583544.png" xmlns="">0gjH43Zm610SFGeGDuCmYqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

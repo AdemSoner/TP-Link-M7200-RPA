@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mDdrEiuMxU6mDiC5tkqHrA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" DesignTimeRectangle="1694, 658, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='powerSaveBtn' tag='BUTTON' /&gt;" Guid="715e99db-fc62-47e5-90d2-16c2238335e6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="3a53f4e44dc1dc6c998f480a951dba93.png" xmlns="">0nPe2gqYK4EmK7LlkXkGD4w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

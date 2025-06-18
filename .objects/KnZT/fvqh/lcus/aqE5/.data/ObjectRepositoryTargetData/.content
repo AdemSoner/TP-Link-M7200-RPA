@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="50kC1RHlYUqH1VqHeJKS_g" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/aqE5J9euW0aasmZpnRCj5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" CVScreenId="94d1ba66-1e8d-4f68-9d80-6d287a666c4c" DesignTimeRectangle="908, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' idx='2' /&gt;" Guid="967fbeff-2c43-434c-b857-9215737872b9" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="691, 627, 202, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='timeZoneLbl' tag='LABEL' type='' class='content-label' aaname='Time Zone:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Time Zone:' /&gt;" Guid="1acff1b1-40af-45d9-82d7-19c8cf749de6" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="89778ba4935632a1a9d187e8f3c7d5fb.png" xmlns="">0VVjRW8fvuECTdNAjkGR55A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

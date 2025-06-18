@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YV909JJoNEK4r_Pg9CapFg" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/mwuXCL5KeE2ZA4NhyxLvUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" CVScreenId="76d9e0ea-1d6f-484a-b059-a8f4176d763f" DesignTimeRectangle="884, 487, 974, 136" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='tableInbox' tag='TBODY' /&gt;" Guid="890be061-c1a7-4f10-9c8b-6d92de652f99" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="9304e3f03ce9fa9d80a3c8b144917c89.png" xmlns="">0DUYalSLnskanMk43MaFcFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

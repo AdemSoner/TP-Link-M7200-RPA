@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1A-J73ztgkS_Fod3TEEmWA" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/MzWTDHlrOEeHgymcF0-KIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/login.html" CVScreenId="6d49bdb4-73df-4f65-a7d9-7f1efec46802" ContentHash="Y0N141nS4E6m-gZpHWSlLg" DesignTimeRectangle="1727, 834, 408, 51" ElementType="Button" FullSelectorArgument="&lt;webctrl id='firstLoginBtn' tag='BUTTON' /&gt;" Guid="6241ed31-9d0e-4054-af05-8c1553ed4e65" ImageBase64="" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/MzWTDHlrOEeHgymcF0-KIg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="45563c2660fc77ca2c2fb24b4e93c12b.png" xmlns="">04VzGy6_LlkSxquBLUZcAGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RXYMo77bVkWN9VjmVel5rg" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/86T0STu09UC73FTUPJQYww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/login.html" DesignTimeRectangle="1727, 473, 408, 442" FullSelectorArgument="&lt;webctrl id='firstLogin' tag='DIV' /&gt;" Guid="efe1c95e-55c2-4f54-b866-3e816c35e975" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="dd08a8ad4115851273e59390298a4e0e.png" xmlns="">0pkbOIsoRF02HtNR6Uy8cRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

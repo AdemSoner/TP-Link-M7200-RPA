@@ -1,0 +1,1649 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Security.Authentication.ExtendedProtection</x:String>
+      <x:String>System.Timers</x:String>
+      <x:String>System.ComponentModel.Design</x:String>
+      <x:String>System.Xml.Schema</x:String>
+      <x:String>System.Xml.Xsl</x:String>
+      <x:String>System.Xml.Xsl.Runtime</x:String>
+      <x:String>System.Xml.XPath</x:String>
+      <x:String>System.Xml.Resolvers</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Design.Controls</x:String>
+      <x:String>System.Windows.Media.Animation</x:String>
+      <x:String>System.Windows</x:String>
+      <x:String>System.Windows.Controls</x:String>
+      <x:String>System.Windows.Media</x:String>
+      <x:String>System.Windows.Threading</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Net.Security</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xml.XPath.XDocument</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Windows.Controls.Ribbon</AssemblyReference>
+      <AssemblyReference>System.Windows.Presentation</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1950,1700.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard CloseMode="IfOpenedByAppBrowser" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1568.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d537bde9-ca81-4a1d-a486-6628a2fe70e7" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1317.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Default="False" Name="TimeZoneVisibility" />
+              <Variable x:TypeArguments="x:String" Name="SMSBox" />
+              <Variable x:TypeArguments="x:String" Name="Password">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:String">sifre123</Literal>
+                </Variable.Default>
+              </Variable>
+              <Variable x:TypeArguments="x:String" Name="TimeZone" />
+              <Variable x:TypeArguments="x:String" Name="Operator" />
+              <Variable x:TypeArguments="x:Boolean" Name="PowerSavingMode" />
+              <Variable x:TypeArguments="x:Boolean" Name="LoginVisible" />
+              <Variable x:TypeArguments="x:Boolean" Name="WirelessCheck" />
+              <Variable x:TypeArguments="x:Boolean" Name="NoMessages" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetAttributeGeneric x:TypeArguments="x:Boolean" Attribute="relativeVisibility" DisplayName="Get Attribute 'Login Create Login Pass…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_10" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NGetAttributeGeneric.Result>
+                <OutArgument x:TypeArguments="x:Boolean">
+                  <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">LoginVisible</CSharpReference>
+                </OutArgument>
+              </uix:NGetAttributeGeneric.Result>
+              <uix:NGetAttributeGeneric.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/login.html" ContentHash="RXYMo77bVkWN9VjmVel5rg" DesignTimeRectangle="1727, 473, 408, 442" FullSelectorArgument="&lt;webctrl id='firstLogin' tag='DIV' /&gt;" Guid="efe1c95e-55c2-4f54-b866-3e816c35e975" ImageBase64="" InformativeScreenshot="dd08a8ad4115851273e59390298a4e0e.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/86T0STu09UC73FTUPJQYww" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NGetAttributeGeneric.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetAttributeGeneric>
+            <If sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_4">
+              <If.Condition>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">LoginVisible</CSharpValue>
+                </InArgument>
+              </If.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,222.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT firstNewPassword'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/login.html" CVScreenId="5f5544d1-3889-4993-bcc0-c3ba79f7a743" ContentHash="smrCHA2j5USeF91jynTabQ" CvElementArea="1724, 574, 412, 53" CvType="InputBox" DesignTimeRectangle="1727, 576, 407, 50" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='firstNewPassword' tag='INPUT' /&gt;" Guid="a059cba5-d07e-4865-b1c4-2991c128d274" InformativeScreenshot="7e29fc20f3b2e3cffec15659f3f7e98f.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/vqaZkZyhdEiVp98EuVGElg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">Password</CSharpValue>
+                      </InArgument>
+                    </uix:NTypeInto.Text>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT firstConfirmPassw…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/login.html" CVScreenId="92f40295-e0a0-4af0-9019-c9cf76f5839e" ContentHash="Mhb2LQdgbEaZZ0Y89EuiXA" CvElementArea="1722, 758, 414, 55" CvType="InputBox" DesignTimeRectangle="1727, 761, 407, 50" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='firstConfirmPassword' tag='INPUT' /&gt;" Guid="fabf69b1-567a-4a38-95a1-f338d7693fb7" InformativeScreenshot="bccf8cbea2bb222f8edf6108d11d0fab.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/VFxju2C3Fky4EJfjFP61MQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">Password</CSharpValue>
+                      </InArgument>
+                    </uix:NTypeInto.Text>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Let's Get Started'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/login.html" CVScreenId="6d49bdb4-73df-4f65-a7d9-7f1efec46802" ContentHash="1A-J73ztgkS_Fod3TEEmWA" DesignTimeRectangle="1727, 834, 408, 51" ElementType="Button" FullSelectorArgument="&lt;webctrl id='firstLoginBtn' tag='BUTTON' /&gt;" Guid="6241ed31-9d0e-4054-af05-8c1553ed4e65" ImageBase64="" InformativeScreenshot="45563c2660fc77ca2c2fb24b4e93c12b.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/MzWTDHlrOEeHgymcF0-KIg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1" CVScreenId="ef8ba18a-6bd1-4a2d-8a1e-4712c0b3993f" ContentHash="kMaGwjcEsUy_fZoJ55-Asg" CvElementArea="2043, 471, 416, 54" CvType="InputBox" DesignTimeRectangle="2048, 473, 407, 50" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" Guid="ae62a5d2-9e59-434f-a34e-36edfb6e90c1" InformativeScreenshot="e007974795de30dfc98709fb2ef7e791.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/WqN0O3sOQUmnsBwBEX5LzQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">Password</CSharpValue>
+                      </InArgument>
+                    </uix:NTypeInto.Text>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1" CVScreenId="ef8ba18a-6bd1-4a2d-8a1e-4712c0b3993f" ContentHash="zfx5mKx1R0uRd9BDgIuERQ" CvElementArea="2318, 557, 141, 51" CvTextArea="2361, 573, 54, 22" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="2321, 560, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='loginBtn' tag='BUTTON' /&gt;" Guid="83a74960-9e2d-447a-85a1-5479be26580f" InformativeScreenshot="042c589f553a8a4782510b632459aeca.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/mHHHera_Vkev_d6cFHD3ug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                </Sequence>
+              </If.Else>
+            </If>
+            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_7">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,280" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SMS'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="30809aab-a7c3-439d-b14f-a2119b43c4b4" ContentHash="HiZfkqQ2uE2SVrZprdXohA" CvElementArea="1994, 269, 51, 41" CvType="Icon" DesignTimeRectangle="1998, 267, 45, 45" FullSelectorArgument="&lt;webctrl id='img_SMS' tag='I' /&gt;" Guid="7365bbe2-8008-4b23-befc-d7da1abc22e9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAATNSURBVGhD7Vj3bxtlGO7fxxJQyihL/MKelRB7qRJDgECsCrUSu63EhoKQ2KsUGjtJk9hnO57xtu+899kPel7ns86XWnGDHV+QT3rk2Ln7vud51/feu++isx7sdeyz/7AXMRfhFMxFOAVzEU7BXIRTMCTi4rMe7HdreMATxkuhBN6NZ/BBIosPZwjuTx7kQ177XZrwHCmCN9y1GsSJZA6eSh3Nbhc9zPbi/uThrdSFF/mR50gR93vCOJ7IIVpvou4AAeoij0a3K7zIjzxHingxlMBqpSYCrBe/J5stnClU8KtemipOF8rCoWZuNSJ58H/kOVLEOxsZubHb66tXi5Q6pjx8LJbG4fUNPOqLTgVP+mN4PZLCt1kDRrsz4EBO7V5PePFv8hwpgknEG3l1er1BTpi9nixKSz27Hsc1iz5c5dakCEwK1y76cOdqEMeTOWw0WmhtEiFp5icjgRd/Js+RIlgN1BWpN/FXoSyf5Y4plkg0W/guVxAh1y/5cemCd2ixnYIGuXsthPfiWZwr98OZhmMO/KyXhJe7VB1w43fr8yNF/GmU8VokiS/SOtYqdYlRWkFvdyQ3nvbHcONyX4i95I0LPneFS8O9ayEcjaUHHqDBsq02TmUMPOWP4REtiu9zxQsX8ZtekgVuXw3ijUgKi6WqCGGYFTumWIy/H1zcuUco4J61ED5J5SVcKIDrp5ttfJTI4UFvRDx+yBPemQjGP5PtgFvDrSvreCWcxO9GSTagRyqmiYViRSx4B2u3e7h2b4eDS348rEXweVrHeq0h5OkBb7WOk8kcDnnDkntXujQpqf9JhCJ3tduH54JxidFCuzNI/HC9iSPRtMQ0N9wutC5Z8OCA24fHfFF8ltaRb3Uk/pkHsUZTPECjXe7qe3eiIrg5hTzui4r1mBvcnEKY8B+n8rjP0xdiJ24FBTwTiOGHfHFgDAqgNxie9CoFKGNMVISCCoNPU3n4qw0JARIJ1hr4MqOLyBuW/FvIE7ecC0hl+ylfFOEMy6rZlbB8O5bGbSvBLUaYigiCllI9FiuKOiBp2VPZfkVhPKuEv2zBKwXghWBcCgbziV5k6WblezM6ukBMTQRdTSF0PcswQ0HVdlYuFgB2nRTCe1lh3oqm8E+xIgIomPex4rEDuHk5MLJUT02EdQMmIRP772JFLEshrPE8KCmQ4UMBrlJV8oihx2T+RS/h5VACNy0HxFP2ta17TFUEQQvS4q+Gk2LZQbKaXayUaxLvbKNV/0MBp40yng/G5Zw4n/Wt2BURJEEhTOYn/DEJJXpCGjezK4mr2vpUs40f80U8pEVw3Wao2dezY1dEKLAEk9jhwAa+yRpDTRw/eQZ8tdlGqFyxr3E+7KoIgsQohs99nTGkeWQe8JMC2AONS15h10UQ6j2dlYsJ/X48K4nP7+xW7fdvh5mIUGAJZuVig8dDTLURF4qZipgU5iKcJILzJjaMY4mwvmOfKZTltOWJOun36XHBfXn+8C3yD6MsvLZ9x7ZOO1gWWe8phB6ZFbg/m0q+t4w17bDOndioUQg9wtCaFbg/eZDPWHMnJpCaAHLiZh9ezepSs6exJoDWWSybNifNYjl7GmsWK6ftZjVw7FTcvbXzHRKxVzEX4RTMRTgFcxFOwf9CxL/9icvtgTAJIQAAAABJRU5ErkJggg==" InformativeScreenshot="cb3bf031554c03ac0d5b48ec6eb4dd4c.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/Ce9zhLYd7kaPNW0J-8Ai7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Wizard'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="9fe585bb-07e6-4273-b8e8-5a52f448618d" ContentHash="J_ckGULgekOgzOv0z8kGgw" CvElementArea="1633, 262, 52, 53" CvType="Icon" DesignTimeRectangle="1638, 267, 45, 45" FullSelectorArgument="&lt;webctrl id='img_Wizard' tag='I' /&gt;" Guid="a109c028-ef31-4d23-9be5-d60be1995a04" ImageBase64="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" InformativeScreenshot="a4f349932a8c154c255d4f3b716b0b31.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/mOFUjhD9eUWyegW4S4u7EQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="9fe585bb-07e6-4273-b8e8-5a52f448618d" CvTextArea="1620, 317, 78, 22" CvTextArgument="Wizard" CvType="Text" DesignTimeRectangle="1574, 318, 174, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='wizard' tag='SPAN' type='' class='' aaname='Wizard' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Wizard' /&gt;" Guid="71946a88-55e4-4e10-a415-710962d2c745" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <uix:NGetAttributeGeneric x:TypeArguments="x:Boolean" Attribute="relativeVisibility" DisplayName="Get Attribute 'Athens'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_24" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NGetAttributeGeneric.Result>
+                      <OutArgument x:TypeArguments="x:Boolean">
+                        <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_20">TimeZoneVisibility</CSharpReference>
+                      </OutArgument>
+                    </uix:NGetAttributeGeneric.Result>
+                    <uix:NGetAttributeGeneric.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="94d1ba66-1e8d-4f68-9d80-6d287a666c4c" ContentHash="50kC1RHlYUqH1VqHeJKS_g" DesignTimeRectangle="908, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' idx='2' /&gt;" Guid="967fbeff-2c43-434c-b857-9215737872b9" ImageBase64="" InformativeScreenshot="89778ba4935632a1a9d187e8f3c7d5fb.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/aqE5J9euW0aasmZpnRCj5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="691, 627, 202, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='timeZoneLbl' tag='LABEL' type='' class='content-label' aaname='Time Zone:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Time Zone:' /&gt;" Guid="1acff1b1-40af-45d9-82d7-19c8cf749de6" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetAttributeGeneric.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NGetAttributeGeneric>
+                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="Delay_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Delay>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">!TimeZoneVisibility</CSharpValue>
+              </ui:InterruptibleWhile.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InterruptibleWhile>
+            <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="selectedItem" DisplayName="Get Attribute 'Athens'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NGetAttributeGeneric.Result>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">TimeZone</CSharpReference>
+                </OutArgument>
+              </uix:NGetAttributeGeneric.Result>
+              <uix:NGetAttributeGeneric.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="94d1ba66-1e8d-4f68-9d80-6d287a666c4c" ContentHash="50kC1RHlYUqH1VqHeJKS_g" DesignTimeRectangle="908, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' idx='2' /&gt;" Guid="967fbeff-2c43-434c-b857-9215737872b9" ImageBase64="" InformativeScreenshot="89778ba4935632a1a9d187e8f3c7d5fb.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/aqE5J9euW0aasmZpnRCj5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="691, 627, 202, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='timeZoneLbl' tag='LABEL' type='' class='content-label' aaname='Time Zone:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Time Zone:' /&gt;" Guid="1acff1b1-40af-45d9-82d7-19c8cf749de6" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetAttributeGeneric.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetAttributeGeneric>
+            <If sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Condition>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">TimeZone.Trim() != "Istanbul"</CSharpValue>
+                </InArgument>
+              </If.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,452" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                    <ui:InterruptibleWhile.Body>
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="selectedItem" DisplayName="Get Attribute 'Athens'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_14" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NGetAttributeGeneric.Result>
+                            <OutArgument x:TypeArguments="x:String">
+                              <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">TimeZone</CSharpReference>
+                            </OutArgument>
+                          </uix:NGetAttributeGeneric.Result>
+                          <uix:NGetAttributeGeneric.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="94d1ba66-1e8d-4f68-9d80-6d287a666c4c" ContentHash="50kC1RHlYUqH1VqHeJKS_g" DesignTimeRectangle="908, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' idx='2' /&gt;" Guid="967fbeff-2c43-434c-b857-9215737872b9" ImageBase64="" InformativeScreenshot="89778ba4935632a1a9d187e8f3c7d5fb.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/aqE5J9euW0aasmZpnRCj5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="691, 627, 202, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='timeZoneLbl' tag='LABEL' type='' class='content-label' aaname='Time Zone:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Time Zone:' /&gt;" Guid="1acff1b1-40af-45d9-82d7-19c8cf749de6" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetAttributeGeneric.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NGetAttributeGeneric>
+                      </Sequence>
+                    </ui:InterruptibleWhile.Body>
+                    <ui:InterruptibleWhile.Condition>
+                      <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">TimeZone.Trim() == ""</CSharpValue>
+                    </ui:InterruptibleWhile.Condition>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:InterruptibleWhile>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Selectbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="MMfrk455C0qE4Fb170a4Ig" DesignTimeRectangle="1654, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' idx='2' /&gt;" Guid="378c96d4-800f-4551-a71a-4c35c796d974" ImageBase64="" InformativeScreenshot="8990f1406a4842545540bce8689db691.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/8vbI6uAGe02CYyJJuSjh9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                    <uix:NMouseScroll.SearchedElement>
+                      <uix:SearchedElement>
+                        <uix:SearchedElement.Target>
+                          <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="BbLzG_ZK40WjCsJ7FwjsJw" DesignTimeRectangle="1084, 703, 427, 36" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl class='active' type='' parentid='regionTimeContent' tag='LI' aaname='Istanbul' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Istanbul' /&gt;" Guid="61662885-5e2f-41dc-bc36-976ead5e0a39" InformativeScreenshot="2e345f71960ad95974d213d862ed7060.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/1GiVgQejSUaHyscVproF0Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                        </uix:SearchedElement.Target>
+                        <uix:SearchedElement.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:SearchedElement.Timeout>
+                      </uix:SearchedElement>
+                    </uix:NMouseScroll.SearchedElement>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NMouseScroll>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mouse Scroll'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="BbLzG_ZK40WjCsJ7FwjsJw" DesignTimeRectangle="1084, 703, 427, 36" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl class='active' type='' parentid='regionTimeContent' tag='LI' aaname='Istanbul' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Istanbul' /&gt;" Guid="61662885-5e2f-41dc-bc36-976ead5e0a39" InformativeScreenshot="2e345f71960ad95974d213d862ed7060.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/1GiVgQejSUaHyscVproF0Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="efbfafef-2f98-4709-986f-e21f4a81a54f" ContentHash="qLqOpcOlSE-tsgk9hYQL9Q" CvElementArea="1718, 701, 141, 49" CvTextArea="1767, 714, 46, 19" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1722, 703, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wzdRegionNextBtn' tag='BUTTON' /&gt;" Guid="2e5e86c9-a5d9-4c13-b1ca-6759eefe9ca6" InformativeScreenshot="c318d45f7b118e428ec316cb0f062875.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/0I1Bvwd7y0KQmdoSCXX47Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="aaname" DisplayName="Get Attribute 'Turkcell'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_19" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NGetAttributeGeneric.Result>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">Operator</CSharpReference>
+                </OutArgument>
+              </uix:NGetAttributeGeneric.Result>
+              <uix:NGetAttributeGeneric.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="6b3b9626-a513-4bd7-a5a0-38481e93f76e" ContentHash="zTaamnTEB063Y_G9L80wNg" DesignTimeRectangle="1699, 613, 397, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='dialUpContent' tag='SPAN' /&gt;" Guid="99619d04-72f8-45b6-a7db-1fdc1981c29f" InformativeScreenshot="fd1f9977b5d0ac5d196bdb6ae05546dd.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/bQby_iQx1EuNFlL1mF-60Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="6b3b9626-a513-4bd7-a5a0-38481e93f76e" CvTextArea="1434, 627, 100, 18" CvTextArgument="Profile List:" CvType="Text" DesignTimeRectangle="1436, 627, 248, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='proListLbl' tag='LABEL' type='' class='content-label' aaname='Profile List:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Profile List:' /&gt;" Guid="795a2126-2e56-4aa4-9327-4c2b5bea49dd" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetAttributeGeneric.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetAttributeGeneric>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </Delay>
+            <If sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_2">
+              <If.Condition>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">Operator == "Turkcell" || Operator == "Avea" || Operator == "Vodafone"</CSharpValue>
+                </InArgument>
+              </If.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Else" sap:VirtualizedContainerService.HintSize="452,669.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="418,578.6666666666666" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_5">
+                    <ui:InterruptibleWhile.Body>
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,456" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Buttons="Ok" DisplayName="Display the exception message in a message box." sap:VirtualizedContainerService.HintSize="382,118.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_2">
+                          <ui:MessageBox.Text>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">"Hata! Operatör adı alınamadı. SIM Kartı Kontrol Et"</CSharpValue>
+                            </InArgument>
+                          </ui:MessageBox.Text>
+                        </ui:MessageBox>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Wizard'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="9fe585bb-07e6-4273-b8e8-5a52f448618d" ContentHash="J_ckGULgekOgzOv0z8kGgw" CvElementArea="1633, 262, 52, 53" CvType="Icon" DesignTimeRectangle="1638, 267, 45, 45" FullSelectorArgument="&lt;webctrl id='img_Wizard' tag='I' /&gt;" Guid="a109c028-ef31-4d23-9be5-d60be1995a04" ImageBase64="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" InformativeScreenshot="a4f349932a8c154c255d4f3b716b0b31.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/mOFUjhD9eUWyegW4S4u7EQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="9fe585bb-07e6-4273-b8e8-5a52f448618d" CvTextArea="1620, 317, 78, 22" CvTextArgument="Wizard" CvType="Text" DesignTimeRectangle="1574, 318, 174, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='wizard' tag='SPAN' type='' class='' aaname='Wizard' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Wizard' /&gt;" Guid="71946a88-55e4-4e10-a415-710962d2c745" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NClick>
+                        <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="selectedItem" DisplayName="Get Attribute 'Athens'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_20" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NGetAttributeGeneric.Result>
+                            <OutArgument x:TypeArguments="x:String">
+                              <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">TimeZone</CSharpReference>
+                            </OutArgument>
+                          </uix:NGetAttributeGeneric.Result>
+                          <uix:NGetAttributeGeneric.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="94d1ba66-1e8d-4f68-9d80-6d287a666c4c" ContentHash="50kC1RHlYUqH1VqHeJKS_g" DesignTimeRectangle="908, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' idx='2' /&gt;" Guid="967fbeff-2c43-434c-b857-9215737872b9" ImageBase64="" InformativeScreenshot="89778ba4935632a1a9d187e8f3c7d5fb.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/aqE5J9euW0aasmZpnRCj5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="691, 627, 202, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='timeZoneLbl' tag='LABEL' type='' class='content-label' aaname='Time Zone:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Time Zone:' /&gt;" Guid="1acff1b1-40af-45d9-82d7-19c8cf749de6" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetAttributeGeneric.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NGetAttributeGeneric>
+                        <If sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_7">
+                          <If.Condition>
+                            <InArgument x:TypeArguments="x:Boolean">
+                              <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">TimeZone.Trim() != "Istanbul"</CSharpValue>
+                            </InArgument>
+                          </If.Condition>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_6">
+                                <ui:InterruptibleWhile.Body>
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="selectedItem" DisplayName="Get Attribute 'Athens'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_21" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                                      <uix:NGetAttributeGeneric.Result>
+                                        <OutArgument x:TypeArguments="x:String">
+                                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_17">TimeZone</CSharpReference>
+                                        </OutArgument>
+                                      </uix:NGetAttributeGeneric.Result>
+                                      <uix:NGetAttributeGeneric.Target>
+                                        <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="94d1ba66-1e8d-4f68-9d80-6d287a666c4c" ContentHash="eaFvDhBnwEOFnYlx6t-s7Q" DesignTimeRectangle="1654, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' idx='2' /&gt;" Guid="967fbeff-2c43-434c-b857-9215737872b9" ImageBase64="" InformativeScreenshot="1d0ce7042fbcbdee8de2ebe76c4b8a5d.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/aqE5J9euW0aasmZpnRCj5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target DesignTimeRectangle="1436, 627, 203, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='timeZoneLbl' tag='LABEL' type='' class='content-label' aaname='Time Zone:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Time Zone:' /&gt;" Guid="1acff1b1-40af-45d9-82d7-19c8cf749de6" SearchSteps="FuzzySelector" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetAttributeGeneric.Target>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </uix:NGetAttributeGeneric>
+                                  </Sequence>
+                                </ui:InterruptibleWhile.Body>
+                                <ui:InterruptibleWhile.Condition>
+                                  <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">TimeZone.Trim() == ""</CSharpValue>
+                                </ui:InterruptibleWhile.Condition>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:InterruptibleWhile>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Athens'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="9fa28d66-95aa-4ad9-bb4e-42b671f1ce6f" ContentHash="h1YIfZ7tkkWncAaQBq6cRA" CvElementArea="1649, 610, 458, 54" CvType="InputBox" DesignTimeRectangle="1085, 613, 450, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Athens' class='dropdown-toggle' parentid='regionTimeContent' tag='SPAN' /&gt;" Guid="94ed207a-8c85-4633-8691-6561a20f6ee9" ImageBase64="" InformativeScreenshot="1d0ce7042fbcbdee8de2ebe76c4b8a5d.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/Mt-8hiu7fk-EfJ9LqMtnyQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="9fa28d66-95aa-4ad9-bb4e-42b671f1ce6f" CvTextArea="1434, 627, 98, 18" CvTextArgument="Time Zone:" CvType="Text" DesignTimeRectangle="867, 627, 203, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='timeZoneLbl' tag='LABEL' type='' class='content-label' aaname='Time Zone:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Time Zone:' /&gt;" Guid="916935d7-bf12-42b5-a77e-28b358dc7162" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </uix:NClick>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,272.6666666666667" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="BbLzG_ZK40WjCsJ7FwjsJw" DesignTimeRectangle="1084, 703, 427, 36" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl class='active' type='' parentid='regionTimeContent' tag='LI' aaname='Istanbul' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Istanbul' /&gt;" Guid="61662885-5e2f-41dc-bc36-976ead5e0a39" InformativeScreenshot="2e345f71960ad95974d213d862ed7060.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/1GiVgQejSUaHyscVproF0Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mouse Scroll'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,220" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="BbLzG_ZK40WjCsJ7FwjsJw" DesignTimeRectangle="1084, 703, 427, 36" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl class='active' type='' parentid='regionTimeContent' tag='LI' aaname='Istanbul' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Istanbul' /&gt;" Guid="61662885-5e2f-41dc-bc36-976ead5e0a39" InformativeScreenshot="2e345f71960ad95974d213d862ed7060.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/1GiVgQejSUaHyscVproF0Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="efbfafef-2f98-4709-986f-e21f4a81a54f" ContentHash="qLqOpcOlSE-tsgk9hYQL9Q" CvElementArea="1718, 701, 141, 49" CvTextArea="1767, 714, 46, 19" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1722, 703, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wzdRegionNextBtn' tag='BUTTON' /&gt;" Guid="2e5e86c9-a5d9-4c13-b1ca-6759eefe9ca6" InformativeScreenshot="c318d45f7b118e428ec316cb0f062875.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/0I1Bvwd7y0KQmdoSCXX47Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NClick>
+                        <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="aaname" DisplayName="Get Attribute 'Turkcell'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_22" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NGetAttributeGeneric.Result>
+                            <OutArgument x:TypeArguments="x:String">
+                              <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_18">Operator</CSharpReference>
+                            </OutArgument>
+                          </uix:NGetAttributeGeneric.Result>
+                          <uix:NGetAttributeGeneric.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="6b3b9626-a513-4bd7-a5a0-38481e93f76e" ContentHash="zTaamnTEB063Y_G9L80wNg" DesignTimeRectangle="1699, 613, 397, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='dialUpContent' tag='SPAN' /&gt;" Guid="99619d04-72f8-45b6-a7db-1fdc1981c29f" InformativeScreenshot="fd1f9977b5d0ac5d196bdb6ae05546dd.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/bQby_iQx1EuNFlL1mF-60Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="6b3b9626-a513-4bd7-a5a0-38481e93f76e" CvTextArea="1434, 627, 100, 18" CvTextArgument="Profile List:" CvType="Text" DesignTimeRectangle="1436, 627, 248, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='proListLbl' tag='LABEL' type='' class='content-label' aaname='Profile List:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Profile List:' /&gt;" Guid="795a2126-2e56-4aa4-9327-4c2b5bea49dd" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetAttributeGeneric.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NGetAttributeGeneric>
+                      </Sequence>
+                    </ui:InterruptibleWhile.Body>
+                    <ui:InterruptibleWhile.Condition>
+                      <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">Operator=="NONE" || Operator == null</CSharpValue>
+                    </ui:InterruptibleWhile.Condition>
+                  </ui:InterruptibleWhile>
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="EUZNxl2fNkGVvdwRCVgqpg" DesignTimeRectangle="2291, 1066, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wzdDialUpNextBtn' tag='BUTTON' /&gt;" Guid="cb314d18-ce27-4c2d-a762-1625f3055d0b" InformativeScreenshot="d336ca2166e761f8ede5f722caffa6a8.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/XAtDZ2rYR02yUbdCpcQ5Gw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'WirelessNext'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="NLWkTrKLo06hXom7AMReNg" DesignTimeRectangle="1546, 778, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wzdWirelessNextBtn' tag='BUTTON' /&gt;" Guid="f099ce01-0b50-4297-a536-410441be55c1" InformativeScreenshot="77b243a0562544a1353aec034b423c3a.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/Ty13uLJV4EumeRoAX7v_0g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Finish'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="A54Bz2qFdkS9AIlZnr8OqQ" DesignTimeRectangle="2291, 1161, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wzdFinishBtn' tag='BUTTON' /&gt;" Guid="e7d9163f-9fef-4fe9-8dd1-68acb6525626" InformativeScreenshot="ec25217a94678761b430553a2f498ff7.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/0GtUrtVzcE-SzTSv2yNDdg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I img_SMS'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="30809aab-a7c3-439d-b14f-a2119b43c4b4" ContentHash="HiZfkqQ2uE2SVrZprdXohA" CvElementArea="1994, 269, 51, 41" CvType="Icon" DesignTimeRectangle="1998, 267, 45, 45" FullSelectorArgument="&lt;webctrl id='img_SMS' tag='I' /&gt;" Guid="7365bbe2-8008-4b23-befc-d7da1abc22e9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAATNSURBVGhD7Vj3bxtlGO7fxxJQyihL/MKelRB7qRJDgECsCrUSu63EhoKQ2KsUGjtJk9hnO57xtu+899kPel7ns86XWnGDHV+QT3rk2Ln7vud51/feu++isx7sdeyz/7AXMRfhFMxFOAVzEU7BXIRTMCTi4rMe7HdreMATxkuhBN6NZ/BBIosPZwjuTx7kQ177XZrwHCmCN9y1GsSJZA6eSh3Nbhc9zPbi/uThrdSFF/mR50gR93vCOJ7IIVpvou4AAeoij0a3K7zIjzxHingxlMBqpSYCrBe/J5stnClU8KtemipOF8rCoWZuNSJ58H/kOVLEOxsZubHb66tXi5Q6pjx8LJbG4fUNPOqLTgVP+mN4PZLCt1kDRrsz4EBO7V5PePFv8hwpgknEG3l1er1BTpi9nixKSz27Hsc1iz5c5dakCEwK1y76cOdqEMeTOWw0WmhtEiFp5icjgRd/Js+RIlgN1BWpN/FXoSyf5Y4plkg0W/guVxAh1y/5cemCd2ixnYIGuXsthPfiWZwr98OZhmMO/KyXhJe7VB1w43fr8yNF/GmU8VokiS/SOtYqdYlRWkFvdyQ3nvbHcONyX4i95I0LPneFS8O9ayEcjaUHHqDBsq02TmUMPOWP4REtiu9zxQsX8ZtekgVuXw3ijUgKi6WqCGGYFTumWIy/H1zcuUco4J61ED5J5SVcKIDrp5ttfJTI4UFvRDx+yBPemQjGP5PtgFvDrSvreCWcxO9GSTagRyqmiYViRSx4B2u3e7h2b4eDS348rEXweVrHeq0h5OkBb7WOk8kcDnnDkntXujQpqf9JhCJ3tduH54JxidFCuzNI/HC9iSPRtMQ0N9wutC5Z8OCA24fHfFF8ltaRb3Uk/pkHsUZTPECjXe7qe3eiIrg5hTzui4r1mBvcnEKY8B+n8rjP0xdiJ24FBTwTiOGHfHFgDAqgNxie9CoFKGNMVISCCoNPU3n4qw0JARIJ1hr4MqOLyBuW/FvIE7ecC0hl+ylfFOEMy6rZlbB8O5bGbSvBLUaYigiCllI9FiuKOiBp2VPZfkVhPKuEv2zBKwXghWBcCgbziV5k6WblezM6ukBMTQRdTSF0PcswQ0HVdlYuFgB2nRTCe1lh3oqm8E+xIgIomPex4rEDuHk5MLJUT02EdQMmIRP772JFLEshrPE8KCmQ4UMBrlJV8oihx2T+RS/h5VACNy0HxFP2ta17TFUEQQvS4q+Gk2LZQbKaXayUaxLvbKNV/0MBp40yng/G5Zw4n/Wt2BURJEEhTOYn/DEJJXpCGjezK4mr2vpUs40f80U8pEVw3Wao2dezY1dEKLAEk9jhwAa+yRpDTRw/eQZ8tdlGqFyxr3E+7KoIgsQohs99nTGkeWQe8JMC2AONS15h10UQ6j2dlYsJ/X48K4nP7+xW7fdvh5mIUGAJZuVig8dDTLURF4qZipgU5iKcJILzJjaMY4mwvmOfKZTltOWJOun36XHBfXn+8C3yD6MsvLZ9x7ZOO1gWWe8phB6ZFbg/m0q+t4w17bDOndioUQg9wtCaFbg/eZDPWHMnJpCaAHLiZh9ezepSs6exJoDWWSybNifNYjl7GmsWK6ftZjVw7FTcvbXzHRKxVzEX4RTMRTgFcxFOwf9CxL/9icvtgTAJIQAAAABJRU5ErkJggg==" InformativeScreenshot="cb3bf031554c03ac0d5b48ec6eb4dd4c.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/Ce9zhLYd7kaPNW0J-8Ai7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_2">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,351.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="innerhtml" DisplayName="Get Attribute 'Received'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,243.33333333333334" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_16" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NGetAttributeGeneric.Result>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">SMSBox</CSharpReference>
+                      </OutArgument>
+                    </uix:NGetAttributeGeneric.Result>
+                    <uix:NGetAttributeGeneric.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="76d9e0ea-1d6f-484a-b059-a8f4176d763f" ContentHash="YV909JJoNEK4r_Pg9CapFg" DesignTimeRectangle="884, 487, 974, 136" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='tableInbox' tag='TBODY' /&gt;" Guid="890be061-c1a7-4f10-9c8b-6d92de652f99" ImageBase64="" InformativeScreenshot="9304e3f03ce9fa9d80a3c8b144917c89.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/mwuXCL5KeE2ZA4NhyxLvUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NGetAttributeGeneric.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NGetAttributeGeneric>
+                  <If sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="If_6">
+                    <If.Condition>
+                      <InArgument x:TypeArguments="x:Boolean">
+                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">SMSBox.ToLower().Contains("&lt;td&gt;")</CSharpValue>
+                      </InArgument>
+                    </If.Condition>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,222.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SPAN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="66c3e9d5-54c0-4fd3-8429-b19d93218bf5" ContentHash="Pu-1VnIZUEGYWPN78Ydsig" CvElementArea="1669, 511, 23, 22" CvType="CheckBox" DesignTimeRectangle="1673, 513, 18, 18" FuzzySelectorArgument="&lt;webctrl id='tableInbox' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='icon-unchecked' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ef7b0ec6-f8e3-4068-9b8f-3e4e4b876fb5" InformativeScreenshot="2c5fe3d18451de321e634345d1583544.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/dMwf21c_mUavNd2T2WEDqw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="d60bbfec-45b2-4806-9562-ac28f66fba7d" CvTextArea="1761, 512, 52, 16" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="1763, 510, 52, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='tableInbox' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='smsStatus' type='' tag='SPAN' class='' aaname='Status' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Status' /&gt;" Guid="2b799800-b791-47a7-85fa-002f238b89de" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                              <uix:TargetAnchorable.PointOffset>
+                                <uix:PointOffset Position="BottomLeft" X="3" Y="-3" />
+                              </uix:TargetAnchorable.PointOffset>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="d60bbfec-45b2-4806-9562-ac28f66fba7d" ContentHash="0n_qIVnHy0emRUHCkiHmVw" CvTextArea="2523, 453, 51, 16" CvTextArgument="Delete" CvType="Text" DesignTimeRectangle="2522, 452, 53, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl id='deleteText' tag='SPAN' /&gt;" Guid="7132308a-fcd7-43f1-9965-a37e3064ef44" InformativeScreenshot="20db10aed393137f6cdaa03af4fa2997.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/LtCoGCq370y6am9bqcPliw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="400d98c6-4538-4c36-aeb4-66c83faefb4a" ContentHash="VOee4V-YnEepsZCQlUWiAA" CvElementArea="2245, 702, 141, 51" CvTextArea="2283, 717, 63, 19" CvTextArgument="Delete" CvType="Button" DesignTimeRectangle="2248, 705, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='deleteOK' tag='BUTTON' /&gt;" Guid="722e568d-15a7-4b08-8e93-2d484498d7db" InformativeScreenshot="a3e9ed3873c51ced7500651ee3792831.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/ZYOH1lo__U6wOlpKETGvAg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NClick>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+              <ui:InterruptibleDoWhile.Condition>
+                <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">SMSBox.ToLower().Contains("&lt;td&gt;") != false</CSharpValue>
+              </ui:InterruptibleDoWhile.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InterruptibleDoWhile>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I img_Advanced'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="N9A3KHZihkOqM8Nb9_YdBA" DesignTimeRectangle="2157, 267, 51, 45" FullSelectorArgument="&lt;webctrl id='img_Advanced' tag='I' /&gt;" Guid="bda12b90-f7fc-4ca1-a2cc-fe99d0a3e2c5" InformativeScreenshot="a8e9ec5e5727e960c24e51e8e4944485.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/hmWd5NpDikmmVavbSlc68A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </Delay>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Power Saving'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="5qYxBHJ74Ee4VmGZ96m5ag" DesignTimeRectangle="1316, 1134, 139, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='PowerSaving' tag='SPAN' /&gt;" Guid="26b5f6f3-5341-4a78-a334-85b2168e516e" InformativeScreenshot="c9733a1e3a4aa52fc2af053d5aa3ccce.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/Xq01KtyOOU-v_5znsrIt4g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NGetAttributeGeneric x:TypeArguments="x:Boolean" Attribute="checked" DisplayName="Get Attribute 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_5" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NGetAttributeGeneric.Result>
+                <OutArgument x:TypeArguments="x:Boolean">
+                  <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">PowerSavingMode</CSharpReference>
+                </OutArgument>
+              </uix:NGetAttributeGeneric.Result>
+              <uix:NGetAttributeGeneric.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="nTR4BYL5lEOawSRP6-RG9Q" DesignTimeRectangle="1257, 453, 63, 39" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='powerSaveSecCon' tag='DIV' /&gt;" Guid="a0523203-2d52-4802-8a1b-aebf947bddb6" InformativeScreenshot="67b28c3c406532d8f500fbfcfd4a2d18.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/0_Z6HqzNZEKeLUm1Np-9Hw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NGetAttributeGeneric.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetAttributeGeneric>
+            <If sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_3">
+              <If.Condition>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">PowerSavingMode == true</CSharpValue>
+                </InArgument>
+              </If.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="528,484" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="494,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="nTR4BYL5lEOawSRP6-RG9Q" DesignTimeRectangle="1257, 453, 63, 39" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='powerSaveSecCon' tag='DIV' /&gt;" Guid="a0523203-2d52-4802-8a1b-aebf947bddb6" InformativeScreenshot="67b28c3c406532d8f500fbfcfd4a2d18.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/0_Z6HqzNZEKeLUm1Np-9Hw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="494,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" ContentHash="mDdrEiuMxU6mDiC5tkqHrA" DesignTimeRectangle="1694, 658, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='powerSaveBtn' tag='BUTTON' /&gt;" Guid="715e99db-fc62-47e5-90d2-16c2238335e6" InformativeScreenshot="3a53f4e44dc1dc6c998f480a951dba93.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/8TtgjfXyOUO5L0DJUJgf-A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <uix:NCheckState DisplayName="Check App State 'Restart Wi-Fi'" EnableIfNotExists="False" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="494,309.3333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Restart Wi-Fi'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="681fa389-769d-4a53-bd43-af87f90b1b90" ContentHash="f_jBf6cSq0WF0JirNfTo4A" CvElementArea="1468, 699, 171, 51" CvTextArea="1493, 714, 123, 20" CvTextArgument="Restart Wi-Fi" CvType="Button" DesignTimeRectangle="1472, 702, 165, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wifiRebootOK' tag='BUTTON' /&gt;" Guid="dc108e48-548a-4317-bfaf-8f6df5cc3259" InformativeScreenshot="19d1faee55fc384b5a1825b8d20918e6.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/16yADP70R0eKzf8VdE7nvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="1060, 494, 630, 291" FullSelectorArgument="&lt;webctrl id='wifiRebootPopup' tag='DIV' /&gt;" FuzzyMatches="10000" Guid="57af961f-8941-45f5-a44d-2d216355191a" SearchSteps="Selector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="416,50.666666666666664" sap2010:WorkflowViewState.IdRef="Delay_2">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Delay>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,93.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="681fa389-769d-4a53-bd43-af87f90b1b90" ContentHash="f_jBf6cSq0WF0JirNfTo4A" CvElementArea="1468, 699, 171, 51" CvTextArea="1493, 714, 123, 20" CvTextArgument="Restart Wi-Fi" CvType="Button" DesignTimeRectangle="1472, 702, 165, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wifiRebootOK' tag='BUTTON' /&gt;" Guid="dc108e48-548a-4317-bfaf-8f6df5cc3259" InformativeScreenshot="19d1faee55fc384b5a1825b8d20918e6.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/16yADP70R0eKzf8VdE7nvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1060, 494, 630, 291" FullSelectorArgument="&lt;webctrl id='wifiRebootPopup' tag='DIV' /&gt;" FuzzyMatches="10000" Guid="57af961f-8941-45f5-a44d-2d216355191a" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheckState.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NCheckState>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="528,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Wireless'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="9ce31d17-d949-40c6-910e-c07dda3796aa" ContentHash="gnV6ShwwFEK0NaeovhF8IA" CvElementArea="1209, 440, 364, 80" CvTextArea="1313, 468, 90, 22" CvTextArgument="Wireless" CvType="Button" DesignTimeRectangle="1316, 468, 87, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='Wireless' tag='SPAN' /&gt;" Guid="1b5bbf2c-8970-425b-9b65-baa5398b49ca" InformativeScreenshot="db29cefc709b00bbccc34ce6e26f66f6.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/n3Qe-UwivEav6RbsWQys1Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NGetAttributeGeneric x:TypeArguments="x:Boolean" Attribute="checked" DisplayName="Get Attribute 'SSID Broadcast'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_12" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+              <uix:NGetAttributeGeneric.Result>
+                <OutArgument x:TypeArguments="x:Boolean">
+                  <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">WirelessCheck</CSharpReference>
+                </OutArgument>
+              </uix:NGetAttributeGeneric.Result>
+              <uix:NGetAttributeGeneric.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="1af05ada-7090-4b6a-9436-ba1ee91b430f" ContentHash="_YrScew3XUuq7um_xbZrsA" DesignTimeRectangle="2002, 514, 63, 39" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='wifiSettingsSection' tag='DIV' /&gt;" Guid="5155cc8e-a0f4-4b8a-b3cf-c25c7086263a" InformativeScreenshot="cfb59ce2c6083d8aac51270bcaf93585.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/zNdlVglzCkmB538BIkgw9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1af05ada-7090-4b6a-9436-ba1ee91b430f" CvTextArea="1662, 524, 143, 18" CvTextArgument="SSID Broadcast:" CvType="Text" DesignTimeRectangle="1664, 523, 324, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='broadcastLbl' tag='LABEL' type='' class='content-label' aaname='SSID Broadcast:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='SSID Broadcast:' /&gt;" Guid="fb7f75ea-19b0-41bf-8ba5-c050033b5ad2" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetAttributeGeneric.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetAttributeGeneric>
+            <If sap:VirtualizedContainerService.HintSize="416,50.666666666666664" sap2010:WorkflowViewState.IdRef="If_5">
+              <If.Condition>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">WirelessCheck</CSharpValue>
+                </InArgument>
+              </If.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,394.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SSID Broadcast'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="1af05ada-7090-4b6a-9436-ba1ee91b430f" ContentHash="_YrScew3XUuq7um_xbZrsA" DesignTimeRectangle="2002, 514, 63, 39" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='wifiSettingsSection' tag='DIV' /&gt;" Guid="5155cc8e-a0f4-4b8a-b3cf-c25c7086263a" InformativeScreenshot="cfb59ce2c6083d8aac51270bcaf93585.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/zNdlVglzCkmB538BIkgw9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="1af05ada-7090-4b6a-9436-ba1ee91b430f" CvTextArea="1662, 524, 143, 18" CvTextArgument="SSID Broadcast:" CvType="Text" DesignTimeRectangle="1664, 523, 324, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='broadcastLbl' tag='LABEL' type='' class='content-label' aaname='SSID Broadcast:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='SSID Broadcast:' /&gt;" Guid="fb7f75ea-19b0-41bf-8ba5-c050033b5ad2" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="c9760a5b-1cf8-472e-9ead-220a11e233d5" ContentHash="LQivreqwcUyROlMeAu8Vag" CvElementArea="1691, 905, 141, 50" CvTextArea="1736, 920, 51, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1694, 907, 135, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wirelessSettingsSave' tag='BUTTON' /&gt;" Guid="636e8f20-2c31-4711-8e2a-d2d9d168f75e" InformativeScreenshot="8de794275fff04dc867a0b2ef049b286.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/4PRyDqAPu0WTgK2J2PR6cQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <uix:NCheckState DisplayName="Check App State 'Restart Wi-Fi'" EnableIfNotExists="False" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Restart Wi-Fi'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d537bde9-ca81-4a1d-a486-6628a2fe70e7" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="681fa389-769d-4a53-bd43-af87f90b1b90" ContentHash="f_jBf6cSq0WF0JirNfTo4A" CvElementArea="1468, 699, 171, 51" CvTextArea="1493, 714, 123, 20" CvTextArgument="Restart Wi-Fi" CvType="Button" DesignTimeRectangle="1472, 702, 165, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wifiRebootOK' tag='BUTTON' /&gt;" Guid="dc108e48-548a-4317-bfaf-8f6df5cc3259" InformativeScreenshot="19d1faee55fc384b5a1825b8d20918e6.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/16yADP70R0eKzf8VdE7nvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="1060, 494, 630, 291" FullSelectorArgument="&lt;webctrl id='wifiRebootPopup' tag='DIV' /&gt;" FuzzyMatches="10000" Guid="57af961f-8941-45f5-a44d-2d216355191a" SearchSteps="Selector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="416,117.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,93.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="192.168.0.1/settings.html" CVScreenId="681fa389-769d-4a53-bd43-af87f90b1b90" ContentHash="f_jBf6cSq0WF0JirNfTo4A" CvElementArea="1468, 699, 171, 51" CvTextArea="1493, 714, 123, 20" CvTextArgument="Restart Wi-Fi" CvType="Button" DesignTimeRectangle="1472, 702, 165, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl id='wifiRebootOK' tag='BUTTON' /&gt;" Guid="dc108e48-548a-4317-bfaf-8f6df5cc3259" InformativeScreenshot="19d1faee55fc384b5a1825b8d20918e6.png" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/16yADP70R0eKzf8VdE7nvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1060, 494, 630, 291" FullSelectorArgument="&lt;webctrl id='wifiRebootPopup' tag='DIV' /&gt;" FuzzyMatches="10000" Guid="57af961f-8941-45f5-a44d-2d216355191a" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheckState.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NCheckState>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="3829, -18, 3862, 2110" BrowserType="Chrome" ContentHash="I9Z413aDDEyi5wjRTKRNuw" IconBase64="AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRykUA3dBNANnOSz/Zzku52c5LztnOS83ZzkvN2c5LztvPTMPe0k0v39NNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjNSgDazksJ2M1Ls9bLSv/Wy0r/1stK/9bLSv/Wy0r/2M1L89zQTDvd0UwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2c5LANzQTBDYzUvM1stK/9bLSv/Wy0r/1stK/9bLSv/YzUvz3NBMO93RTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADZzksA3NBMENjNS8zWy0r/1stK/9bLSv/Wy0r/1stK/9jNS/Pc0Ew73dFMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANnOSwDc0EwQ2M1LzNbLSv/Wy0r/1stK/9bLSv/Wy0r/2M1L89zQTDvd0UwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2c5LANzQTBDYzUvM1stK/9bLSv/Wy0r/1stK/9bLSv/YzUvz3NBMO93RTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADZzkwA3NBMENjNS8zWy0r/1stK/9bLSv/Wy0r/1stK/9jNS/Pc0Ew73dFMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANXFSwDazksJ3NBMENzQTBDc0EwQ3NBMENzQTA/c0Ewf2M1Lz9bLSv/Wy0r/1stK/9bLSv/Wy0r/2M1L89zQTDvd0UwA4tdPAeDVTgLg1E0C3c9NAdHDRgDUxkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2c1LPtjNS7PYzUvN2M1LzNjNS8zYzUvM2M1LzNjNS8/XzEr11stK/9bLSv/Wy0r/1stK/9bLSv/YzUvz3NBMO93RTADc0Uxa2c5Lp9nOS6TYzUui2M1KkdnNS23ZzUs62c1LDtPMSgDbz0sAAAAAAAAAAAAAAAAAAAAAAAAAAADYzUu41stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9jNS/Pc0Ew7289LANrPS4vXzEr/1stK/9bLSv/Wy0r/18xK/tfMSvDYzUu82M1LXdjOSw7YzUsA3ddKAAAAAAAAAAAAAAAAANnOS87Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/2M1L89zQTDvbz0sA2s5Li9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/XzEr42M1LrdjNSyvYzEoA185LAAAAAAAAAAAA2c5LzdbLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/YzUvz3NBMO9vPSwDazkuL1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/2M1L0NnOSznaz0wA2MxJAAAAAADZzkvN1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9jNS/Pc0Ew7289LANrOS4vWy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/2MxLz9jNSizZzksAxqw8ANnOS83Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/2MxL89zQTDvbz0sA2s5Li9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/2M1LrNnNSg7YzUoA289MxNjNS/XYzUvz2M1L89jNS/PYzUvz2M1L89jNS/PYzUvz2M1L89jNS/PYzUvz2M1L89jNS/PZzkvn3dFMON3RTADc0Ex32c5L3tjNS9rYzUvd18xK79bLSv7Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/XzEr42M1LXtnOSwDf000w3NFMO9zRTDvc0Uw73NFMO9zRTDvc0Uw73NFMO9zRTDvc0Uw73NFMO9zRTDvc0Uw73NBMO93STTjg1E4O4tVOAN/TTQ/d0Uwb3NBMGtrPSx7Zzks52M1LidfMSurWy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/YzUu82c5LEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfMSgDWy0kC2M1LVdfMSurWy0r/1stK/9bLSv/Wy0r/1stK/9fMSu/YzUtHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1cxMANjRUAHd0k0829BMXtvQTF3b0Exd29BMXdvQTF7d0kxQ3tJNCt7RTAAAAAAAAAAAAAAAAAAAAAAAAAAAANfNSgDWzkkC2M1LhdbLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/tjNS4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADWzEsA3tZQAtrPTKTXzEr/18xK/tfMSv7XzEr+18xK/9nOS9nd0Uwb3NBMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANnNSwDZzUsz18xK69bLSv/Wy0r/1stK/9bLSv/Wy0r/2M1LsQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANbMSwDg11AC2c5LpNbLSv/Wy0r/1stK/9bLSv/Wy0r/2M1L2tzRTBvb0EwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2c1LANrPTBXYzUvS1stK/9bLSv/Wy0r/1stK/9bLSv/YzUvJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA18tLAN3STgHYzUui1stK/9bLSv/Wy0r/1stK/9bLSv/YzUve2s9LHtrPSwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADZzksA29BMEtjNS8/Wy0r/1stK/9bLSv/Wy0r/1stK/9jNS8sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADWy0kA3dNPANjMS5HWy0r/1stK/9bLSv/Wy0r/1stK/9fMSvHZzUs+2c5LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANnNSwDZzUsn18xK49bLSv/Wy0r/1stK/9bLSv/Wy0r/18xLuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANrKSQDZzksA2c5LbNfMSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9jNS5PXzEoE18xKAAAAAAAAAAAAAAAAAAAAAADWzEoA2s1LANjNS2nXzEr81stK/9bLSv/Wy0r/1stK/9bLSv/YzUuXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8JANnNSwDZzUs518xK79bLSv/Wy0r/1stK/9bLSv/Wy0r/18xK8NjNS2TazUsE2c1LAAAAAAAAAAAA2cxKANfNSwDYzEs118xK19bLSv/Wy0r/1stK/9bLSv/Wy0r/18xK+NjNS2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA18xKANjNSg7YzUq81stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/18xK8NjNSpLZzUs52s5LF9vQTBLZzUsk2M1LZ9fMStbWy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/XzErY2M1LJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUyEcA2s9MANjNS13XzEr41stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/tfMSu7YzUvU2M1LztfMSuHXzEr61stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9jNS4rVykgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYzEoA2M1KDdjNS6vWy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/XzErY2M1LKNnNSwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANPKSwDZzUsA2c1LK9jNS87Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/18xK8djNS1zb00wA18pKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANbNSgDbzkwA2c5LONjNS87Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9fMSvHYzEty2MxLBdjMSwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANnLSgDWzksA2c1LKdjNS6rXzEr31stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/Wy0r/1stK/9bLSv/XzEra2M1LXdjMSgXYzEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMnHSwDZzksA2c1LDdjNS1rYzUu618xK7tfLSv7Wy0r/1stK/9bLSv/Wy0r/1stK/9fMSvnXzEra2M1Li9jOSynU0UoB185LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADXy0sA2s5NANjNSw/YzUtD2M1LgdjNS6/YzErI2M1LzNfMSr7YzUua2M1LZNjNSybZzUsD2c1LAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wD///4A///+AP///gD///4A///+AP///gD//4AAh/8AAIB/AACAHwAAgA8AAIAHAACAAwAAgAEAAIABAACAAP///AD+AP4A/gD/AP4A/wD+AP8A/wD/AP8AfwD/AD4A/wAAAP+AAAD/gAAB/8AAA//gAAP/8AAH//gAD//+AD8=" InformativeScreenshot="89c2b385bb06e63edbe38532eb29eea3.jpg" Reference="WQ6qSd0jjUqf1JM9IX2Y3w/lcuso91T40aIsHOc5axN0A" Selector="&lt;html app='chrome.exe' title='M7200' /&gt;" Url="http://192.168.0.1/login.html" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Buttons="Ok" DisplayName="Display the exception message in a message box." sap:VirtualizedContainerService.HintSize="484,109.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_3">
+      <ui:MessageBox.Text>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">"Kurulum Tamamlandı!"</CSharpValue>
+        </InArgument>
+      </ui:MessageBox.Text>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:MessageBox>
+  </Sequence>
+</Activity>

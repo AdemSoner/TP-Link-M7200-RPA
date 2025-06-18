@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Refresh Delete Status P…",
+  "Type": "Element",
+  "Id": "hi12jHKltkKmWoKLRYJvXw",
+  "Reference": "WQ6qSd0jjUqf1JM9IX2Y3w/hi12jHKltkKmWoKLRYJvXw",
+  "ParentRef": "WQ6qSd0jjUqf1JM9IX2Y3w/lcuso91T40aIsHOc5axN0A",
+  "Created": "2025-05-27T09:32:01.3987204Z",
+  "Updated": "2025-05-27T09:32:01.3987204Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

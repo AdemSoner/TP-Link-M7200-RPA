@@ -1,0 +1,13 @@
+﻿{
+  "Name": "I img_Advanced",
+  "Type": "Element",
+  "Id": "hmWd5NpDikmmVavbSlc68A",
+  "Reference": "WQ6qSd0jjUqf1JM9IX2Y3w/hmWd5NpDikmmVavbSlc68A",
+  "ParentRef": "WQ6qSd0jjUqf1JM9IX2Y3w/lcuso91T40aIsHOc5axN0A",
+  "Created": "2025-05-21T10:25:31.4598365Z",
+  "Updated": "2025-05-21T10:25:31.4598365Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

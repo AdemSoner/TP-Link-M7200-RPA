@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Mhb2LQdgbEaZZ0Y89EuiXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/login.html" CVScreenId="92f40295-e0a0-4af0-9019-c9cf76f5839e" CvElementArea="1722, 758, 414, 55" CvType="InputBox" DesignTimeRectangle="1727, 761, 407, 50" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='firstConfirmPassword' tag='INPUT' /&gt;" Guid="fabf69b1-567a-4a38-95a1-f338d7693fb7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="bccf8cbea2bb222f8edf6108d11d0fab.png" xmlns="">0Aj2HSAD_eUyXhGB6FOCNdg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

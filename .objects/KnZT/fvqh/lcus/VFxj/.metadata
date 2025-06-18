@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT firstConfirmPassw…",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "VFxju2C3Fky4EJfjFP61MQ",
+  "Reference": "WQ6qSd0jjUqf1JM9IX2Y3w/VFxju2C3Fky4EJfjFP61MQ",
+  "ParentRef": "WQ6qSd0jjUqf1JM9IX2Y3w/lcuso91T40aIsHOc5axN0A",
+  "Created": "2025-05-20T08:14:49.8139437Z",
+  "Updated": "2025-05-20T08:14:49.8139437Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

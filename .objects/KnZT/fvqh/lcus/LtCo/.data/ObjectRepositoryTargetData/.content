@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0n_qIVnHy0emRUHCkiHmVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.0.1/settings.html" CVScreenId="d60bbfec-45b2-4806-9562-ac28f66fba7d" CvTextArea="2523, 453, 51, 16" CvTextArgument="Delete" CvType="Text" DesignTimeRectangle="2522, 452, 53, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl id='deleteText' tag='SPAN' /&gt;" Guid="7132308a-fcd7-43f1-9965-a37e3064ef44" ScopeSelectorArgument="&lt;html app='chrome.exe' title='M7200' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="20db10aed393137f6cdaa03af4fa2997.png" xmlns="">0DsBmYZv60UOPIjSg75n-uQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
