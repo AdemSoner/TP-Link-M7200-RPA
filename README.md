@@ -44,6 +44,7 @@ Manuel modem kurulum sürecini otomatikleştirerek zaman kazandırmak ve hatası
 - Bu proje yalnızca TP-Link M7200 modem ile test edilmiştir.
 - SMS kutusunun silinmesi geri alınamaz; önemli mesajlar varsa lütfen yedekleyin.
 - Otomasyon aracı, ekran görüntülerine göre işlem yapar. Web arayüz tasarımı değişirse betik güncellenmelidir.
+- Projenin test edildiği modemin Firmware Version: 3.0.6 Build 220829 Rel.1015n **diğer versiyonlarda kusursuz çalışmayabilir.**
 
 ## 📬 İletişim
 
